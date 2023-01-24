@@ -1,10 +1,13 @@
 import Cabecalho from "../../componentes/Cabecalho/Cabecalho"
+import Galeria from "../../componentes/Galeria/Galeria"
 import Menu from "../../componentes/Menu/Menu"
+import Populares from "../../componentes/Populares/Populares"
+import Rodape from "../../componentes/Rodape/Rodape"
 import banner from './banner.png'
 import style from './PaginaInicial.module.scss'
 
 const PaginaInicial = () => {
-    
+
     return (
         <>
             <Cabecalho />
@@ -16,7 +19,12 @@ const PaginaInicial = () => {
                         <img src={banner} alt="A imagem da terra vista do espaço" />
                     </div>
                 </section>
+                <div className={style.galeria}>
+                    <Galeria />
+                    <Populares />
+                </div>
             </main>
+            <Rodape />
         </>
     )
 }
