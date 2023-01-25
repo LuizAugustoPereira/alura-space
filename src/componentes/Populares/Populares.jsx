@@ -1,5 +1,6 @@
 import style from './Populares.module.scss'
 import fotosPopulares from './fotos-populares.json'
+import Botao from 'componentes/Botao/Botao'
 
 const Populares = () => {
 
@@ -9,7 +10,7 @@ const Populares = () => {
             <ul className={style.populares__imagens}>
                 {fotosPopulares.map(foto => <li key={foto.id}><img src={foto.path} alt={foto.alt} /></li>)}
             </ul>
-            <button>Ver mais fotos</button>
+            <Botao>Ver mais fotos</Botao>
         </aside>
     )
 }

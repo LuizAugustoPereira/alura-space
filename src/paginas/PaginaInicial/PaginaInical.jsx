@@ -1,8 +1,9 @@
-import Cabecalho from "../../componentes/Cabecalho/Cabecalho"
-import Galeria from "../../componentes/Galeria/Galeria"
-import Menu from "../../componentes/Menu/Menu"
-import Populares from "../../componentes/Populares/Populares"
-import Rodape from "../../componentes/Rodape/Rodape"
+import Cabecalho from "componentes/Cabecalho/Cabecalho"
+import Galeria from "componentes/Galeria/Galeria"
+import Menu from "componentes/Menu/Menu"
+import Populares from "componentes/Populares/Populares"
+import Rodape from "componentes/Rodape/Rodape"
+
 import banner from './banner.png'
 import style from './PaginaInicial.module.scss'
 
